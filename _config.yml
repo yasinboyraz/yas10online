@@ -18,7 +18,7 @@ collection_order    :
     "twitch",
     "youtube",
     "botlar",
-    "yardımcı-araclar",
+    "araclar",
   ]
 collections:
   blog:   
@@ -41,7 +41,7 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Botlar"
-  yardimci-araclar:   
+  araclar           :   
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
@@ -65,7 +65,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "Yas10online" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
