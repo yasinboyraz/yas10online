@@ -25,7 +25,7 @@ permalink: /
 - Yardımcı Araçlar
 
 
-- Gizli İçerik:
+## Gizli İçerik
 <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Gizli içeriğe erişebilmek için takipte kal.</p>
 
 ## Download and Documentation
