@@ -1,12 +1,12 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                : "https://akiritsu.github.io"
-baseurl            : "/pRoJEct-VeXEd"
+title               : Yas10online Blog - Web Arşiv
+owner               : "Yas10online"
+url                : "https://yas10.online"
+baseurl            : ""
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
+description         : "Yas10online internet arşivi ve blog sitesi"
 markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+statement           : "Tüm Hakları Saklı Falan Değildir. Tasarım Yas10online"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
