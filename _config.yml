@@ -17,7 +17,6 @@ collection_order    :
     "blog",
     "twitch",
     "youtube",
-    "botlar",
     "araclar",
   ]
 collections:
@@ -36,11 +35,6 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Youtube"  
-  botlar:   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : "Botlar"
   araclar           :   
     output          : true
     permalink       : /:collection/:title/
