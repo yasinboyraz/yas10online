@@ -2,31 +2,49 @@
 layout: default
 post_list: false
 toc: false
-comment: false
+comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: "Yas10online Ana Sayfa"
-author: "Yas10online"
+title: ""
+author: ""
 encrypted_text: true
 permalink: /
 ---
 
-# Yas10online Blog Ve Web Arşiv
+# PROJECT VeXEd - HACKER-STYLE PERSONAL HOMEPAGE
 
 <br>
-> Merhaba ben Yas10, sitemde bolca size yardımcı olacak araçlar ve benim geliştirdiğim botları göreceksiniz. Birazcık da yaşantım hakkında bilgiler.
+> pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
 
-## Neler Var ?
+## Features
 
-- Youtube Botları
-- Twitch Botları
-- Blog içeriklerim
-- Yardımcı Araçlar
+- Highly customizable with user-friendly hacker-like design.
+- Easy to gather your notes or portfolios with multiple collection design.
+- Supports formula insertion with `MathJax`.
 
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
 
-## Gizli İçerik
-<p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Gizli içeriğe erişebilmek için takipte kal.</p>
+- Supports code highlight with `Rouge`.
+
+```python
+arr = [10, 7, 8, 9, 1, 5]
+n = len(arr)
+quickSort(arr,0,n-1)
+print ("Sorted array is:")
+for i in range(n):
+    print ("%d" %arr[i]),
+```
+
+- Decrypt and encrypt text (access token: 233):
+  - secret msg example:
+  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
 
 ## Download and Documentation
 
