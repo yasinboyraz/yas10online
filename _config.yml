@@ -14,11 +14,11 @@ bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]
 # Keep it null if you want to show items in alphabetic order.
 collection_order    : 
   [
-    "Blog",
-    "Twitch",
-    "Youtube",
-    "Botlar",
-    "Yardımcı Araçlar",
+    "blog",
+    "twitch",
+    "youtube",
+    "botlar",
+    "yardımcı-araclar",
   ]
 collections:
   blog:   
@@ -31,12 +31,17 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Twitch"
-  Youtube:   
+  youtube:   
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Youtube"  
-  Yardimci-araclar:   
+  botlar:   
+    output          : true
+    permalink       : /:collection/:title/
+    sort_by         : date
+    alias           : "Botlar"
+  yardimci-araclar:   
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
