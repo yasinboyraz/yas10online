@@ -1,8 +1,8 @@
 # 1. Site Settings
 title               : Yas10online
 owner               : "Yas10online"
-url                : ""
-baseurl            : "yas10.online"
+url                : "https://yas10.online"
+baseurl            : ""
 permalink           : /:title/
 description         : "Yas10online Web Arşivi Ve Blog"
 markdown            : kramdown
