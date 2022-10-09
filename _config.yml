@@ -1,48 +1,37 @@
 # 1. Site Settings
-title               : Yas10online Blog - Web Arşiv
+title               : Yas10online
 owner               : "Yas10online"
-url                : "https://yas10.online"
+url                : "127.0.0.1"
 baseurl            : ""
 permalink           : /:title/
-description         : "Yas10online internet arşivi ve blog sitesi"
+description         : "Yas10online Web Arşivi Ve Blog"
 markdown            : kramdown
-statement           : "Tüm Hakları Saklı Falan Değildir. Tasarım Yas10online"
+statement           : "Tasarım: Yas10online"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
 # You can specify the order shown in Archive window. 
 # Keep it null if you want to show items in alphabetic order.
-collection_order    : 
-  [
-    "blog",
-    "twitch",
-    "youtube",
-    "araclar",
-  ]
 collections:
+  tools:   
+    output          : true
+    permalink       : /:collection/:title/
+    alias           : "Tools"
   blog:   
     output          : true
     permalink       : /:collection/:title/
-    sort_by         : date
     alias           : "Blog"
   twitch:   
     output          : true
     permalink       : /:collection/:title/
-    sort_by         : date
     alias           : "Twitch"
   youtube:   
     output          : true
     permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : "Youtube"  
-  araclar           :   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : "Yardımcı Araçlar"
+    alias           : "Youtube"
 
 # 3. Comment settings（disqus.com）
-disqus_username     : akiritsu
+disqus_username     : yas10online
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -63,20 +52,20 @@ defaults:
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
-      comment             : true
+      comment             : false
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "admin@yas10.online" 
+email               : "https://github.com/akiritsu/pRoJEct-VeXEd" 
 linkedin            : 
-github              : "nogayhan" 
+github              : "just-test" 
 gitlab              : 
-website             : "https://yas10.online"
-twitter             : 
-facebook            : 
+website             : "https://github.com/akiritsu/pRoJEct-VeXEd"
+twitter             : "just-test"
+facebook            : "just-test"
 instagram           : 
-youtube             : 
-steam               : 
+youtube             : "just-test"
+steam               : "just-test"
 weibo               :
       
 # 6. Where things are
