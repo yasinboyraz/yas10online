@@ -11,4 +11,4 @@ btn_text: true
 
 # Yas10online Discord Adresine Yönlendiriliyorsun
 
-<meta http-equiv="refresh" content="5; url=https://discord.gg/mRMUQQnePr" />
+<meta http-equiv="refresh" content="5; url=https://discord.gg/KFds4rAbrU" />
